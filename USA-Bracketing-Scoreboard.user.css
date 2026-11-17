@@ -1,0 +1,23 @@
+
+/* ==UserStyle==
+@name USA Bracketing Custom Scoreboard
+@namespace twc.scoreboard
+@version 1.0.0
+@description Custom scoreboard display for USA Bracketing
+==/UserStyle== */
+
+@-moz-document url("https://www.usabracketing.com/live_scoring/virtual/DarkTheme.html") {
+
+    #weight {
+        font-size: 7vw !important;
+    }
+
+    #bout_number {
+        font-size: 10vw !important;
+        color: yellow !important;
+    }
+
+    #w1_name, #w2_name {
+        font-size: 5vw !important;
+    }
+}
